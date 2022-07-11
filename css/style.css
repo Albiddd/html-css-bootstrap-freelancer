@@ -1,8 +1,31 @@
 
-.bg-header, .bg-footer{
+.bg-header, .bg-copyright{
     background-color: #2C3E50;
 }
 
 .bg-hero,.bg-about{
     background-color: #1ABC9C;
+}
+.bg-links{
+    background-color: #3A546D;
+}
+.btn-green{
+    background-color: #1ABC9C;
+}
+
+.hero__img{
+    width: 250px;
+}
+
+.message__container{
+    height: 200px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.links a{
+    aspect-ratio: 1;
+    height: 40px;
+    width: 40px;
 }

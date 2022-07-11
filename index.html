@@ -9,18 +9,80 @@
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header id="header" class="bg-dark text-white p-4">
-        <div class="container d-flex justify-content-between">
-            <div>START BOOTSTRAP</div>
-            <ul class="d-flex list-unstyled gap-3">
-                <li>PORTFOLIO</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+    <header id="header" class="bg-header text-white p-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="h5">START BOOTSTRAP</div>
+            <ul class="d-flex list-unstyled gap-3 ">
+                <li>
+                    <a class="text-white text-decoration-none href="#">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a class="text-white text-decoration-none href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a class="text-white text-decoration-none href="#">CONTACT</a>
+                </li>
             </ul>
         </div>
     </header>
+    <main>
+        <section class="hero bg-hero text-center text-white p-5">
+            <div class="container">
+                <img class="w-25" src="./img/avatar.svg" alt="">
+                <h1>START BOOTSTRAP</h1>
+                <hr>
+                <p class="lead">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </div>
+        </section>
+        <section class="portfolio text-center p-5">
+            <div class="container">
+                <h2 class="h1">PORTFOLIO</h2>
+                <hr>
+            
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gx-4 gy-4">
+                    <div class="col">
+                        <img class="img-fluid rounded-3" src="./img/cabin.png" alt="">
+                    </div>
+                     <div class="col">
+                        <img class="img-fluid rounded-3" src="./img/cake.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid rounded-3" src="./img/circus.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid rounded-3" src="./img/game.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid rounded-3" src="./img/safe.png" alt=" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid rounded-3" src="./img/submarine.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about bg-about text-center text-white p-5">
+            <div class="container">
+                <h2 class="h1">ABOUT</h2>
+                <hr>
+
+                <div class="row row-cols-1 row-cols-sm-2">
+                    <div class="col">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eos mollitia minus, ipsam nam quod, porro, delectus sunt deleniti asperiores quisquam fugit ullam veniam rem voluptate! Unde architecto sint qui.</p>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos unde eligendi ullam error ipsam ipsa quae suscipit fugit minima labore eum commodi iure, veniam voluptates neque, accusantium beatae optio quisquam?</p>
+                    </div>
+                </div>
+                <a href="#" class="btn text-white border-white"> Download</a>
+            </div>
+
+        </section>
+    </main>
 
 
 

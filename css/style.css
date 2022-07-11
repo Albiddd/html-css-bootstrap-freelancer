@@ -24,8 +24,6 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.links a{
-    aspect-ratio: 1;
-    height: 40px;
-    width: 40px;
+.link-green{
+    color: #1ABC9C;
 }

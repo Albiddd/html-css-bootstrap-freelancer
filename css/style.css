@@ -1,4 +1,6 @@
-
+ul{
+    margin: 0;
+}
 .bg-header, .bg-copyright{
     background-color: #2C3E50;
 }
